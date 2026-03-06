@@ -1,4 +1,4 @@
-package main
+package scheduler
 
 import (
 	"fmt"
@@ -79,3 +79,4 @@ func (s *Scheduler) Stop() {
 
 	s.wg.Wait()
 }
+
