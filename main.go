@@ -80,3 +80,6 @@ func (s *Scheduler) Stop() {
 	s.wg.Wait()
 }
 
+func main(){
+	fmt.Println("sanjaty")
+}
